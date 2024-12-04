@@ -1,0 +1,358 @@
+* {
+    color: white;
+    background-color: #090996;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/* header styles */
+.header {
+    top: 0%;
+    left: 50%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+    .title a {
+        font-family: "Inria Serif";
+        font-size: 64px;
+        letter-spacing: 2px;
+
+        color: white;
+        text-decoration: none;
+    }
+    .subtitle a {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        letter-spacing: 8px;
+        font-weight: 500;
+
+        color: ghostwhite;
+        text-decoration: none;
+    }
+
+/* sns */
+
+.banner {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+    color: black;
+    background-color: aliceblue ;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 45px; 
+    padding: 0px
+}
+
+.banner p {
+    color: black;
+    background-color: aliceblue;
+    padding-top: 5px;
+}
+
+.socials {
+    color: black;
+    background-color: aliceblue ;
+    text-decoration: none;
+
+    display: flex;
+    padding: 0px;
+}
+
+
+.socials p {
+    font-size: 14px;
+    color: black;
+    background-color: aliceblue ;
+    text-decoration: none;
+
+    margin: 0;
+}
+
+
+.socials a {
+    color: black;
+    background-color: aliceblue ;
+    text-decoration: none;
+
+    padding-left: 10px;
+}
+
+.socials a:hover {
+    color: #090996;
+    text-decoration: none;
+}
+/* news */
+.news-header {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding-left: 55px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+    .newstitle {
+        font-family: "Inria Serif";
+        font-size: 60px;
+        letter-spacing: 2px;
+
+        color: white;
+    }
+
+    .newssubtitle a {
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 4px;
+
+        color:rgb(170, 170, 170);
+        text-decoration: none; /*remove  underline */
+
+        padding-left: 14px;
+    }
+    
+.news a {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+
+    color: white;
+    text-decoration: none; /*remove  underline */
+
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 300px;
+    margin: 0;
+    width: 100%;
+}
+
+.info{
+    padding: 20px;
+}
+
+.newsdate {
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    padding-right: 200px;
+}
+
+/* profiles */
+.profile-header {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    padding-right: 65px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+    .profiletitle a {
+        font-family: "Inria Serif";
+        font-size: 72px;
+        letter-spacing: 4px;
+
+        color: white;
+        text-decoration: none;
+    }
+
+.profilescontainer {
+    display: flex;
+    gap: 0px;
+
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+    
+.profiles {
+    float:left;
+
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    flex-direction: row; 
+    align-items: flex-start;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.profile img {
+    max-width: 150px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.name {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    
+    color: white;
+    text-decoration: none;
+
+    padding: 5px;
+}
+
+.grpprofile {
+    font-family: "Inria Serif";
+    font-style: italic;
+    font-weight: medium;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: right;
+
+    color: ghostwhite;
+
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: flex-end;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+    .grpprofile p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 1px;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .profilesubtitle a {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 4px;
+
+        color:rgb(170, 170, 170);
+        text-decoration: none; /*remove  underline */
+
+        padding-top: 14px;
+    }
+
+/* gallery */
+.gallery-header {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding-left: 55px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+    .gallerytitle {
+        font-family: "Inria Serif";
+        font-size: 60px;
+        letter-spacing: 2px;
+
+        color: white;
+    }
+
+    .gallerysubtitle a {
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 4px;
+
+        color:rgb(170, 170, 170);
+        text-decoration: none; /*remove  underline */
+
+        padding-left: 14px;
+    }
+    
+    .gallery a {
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+
+        color: white;
+        text-decoration: none; /*remove  underline */
+
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 300px;
+        margin: 0;
+        width: 100%;
+    }
+
+.gallerycontainer {
+    display: flex;
+    align-items: center;  
+    justify-content: flex-start; 
+    gap: 10px;
+    width: 100%; 
+    padding: 40px;
+    margin: 0;
+}
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        justify-content: flex-start; 
+        width: 100%
+    }
+
+    .gallery img {
+        max-width: 500px;
+        height: auto; 
+        
+        align-self: flex-start;
+        padding-right: 350px;
+    }
+
+    .galleryinfo {
+        display: flex;
+        padding-top: 10px;
+        padding-right: 50px;
+    }
+
+    .gallerydate {
+        font-family: "Roboto", sans-serif;
+        font-size: 13px;
+        text-align: flex-start;
+        
+        color: white;
+        text-decoration: none;
+
+        padding-right: 260px;
+    }
+
+    .galleryevent {
+        font-family: "Roboto", sans-serif;
+        font-size: 13px;
+        text-align: flex-end;
+        
+        color: white;
+        text-decoration: none;
+    }

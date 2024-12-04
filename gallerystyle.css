@@ -1,0 +1,104 @@
+* {
+    color: white;
+    background-color: #090996;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/* header styles */
+.header {
+    top: 0%;
+    left: 50%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+    .title a {
+        font-family: "Inria Serif";
+        font-size: 64px;
+        letter-spacing: 2px;
+
+        color: white;
+        text-decoration: none;
+    }
+    .subtitle a {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        letter-spacing: 8px;
+        font-weight: 500;
+
+        color: ghostwhite;
+        text-decoration: none;
+    }
+
+/* gallery */
+
+.gallerytitle a {
+    font-family: "Inria Serif";
+    font-size: 60px;
+    letter-spacing: 8px;
+    font-weight: 500;
+
+    color: ghostwhite;
+    text-decoration: none;
+
+    padding-left: 45px;
+}
+
+
+.gallerycontainer {
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    gap: 10px;
+    width: 100%; 
+    padding: 40px;
+    margin: 0;
+}
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        justify-content: center; 
+        width: 100%
+    }
+
+    .gallery img {
+        max-width: 500px;
+        height: auto; 
+        
+        align-self: flex-start;
+        padding-left: 0px;
+    }
+
+    .galleryinfo {
+        display: flex;
+        padding-top: 10px;
+        padding-right: 50px;
+    }
+
+    .gallerydate {
+        font-family: "Roboto", sans-serif;
+        font-size: 13px;
+        text-align: flex-start;
+        
+        color: white;
+        text-decoration: none;
+
+        padding-right: 260px;
+    }
+
+    .galleryevent {
+        font-family: "Roboto", sans-serif;
+        font-size: 13px;
+        text-align: flex-end;
+        
+        color: white;
+        text-decoration: none;
+    }

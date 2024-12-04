@@ -1,0 +1,241 @@
+* {
+    color: white;
+    background-color: #090996;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/* header styles */
+.header {
+    top: 0%;
+    left: 50%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+    .title a {
+        font-family: "Inria Serif";
+        font-size: 64px;
+        letter-spacing: 2px;
+
+        color: white;
+        text-decoration: none;
+    }
+    .subtitle a {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        letter-spacing: 8px;
+        font-weight: 500;
+
+        color: ghostwhite;
+        text-decoration: none;
+    }
+
+.profiletitle a {
+    font-family: "Inria Serif";
+    font-size: 60px;
+    letter-spacing: 8px;
+    font-weight: 500;
+
+    color: ghostwhite;
+    text-decoration: none;
+
+    padding-left: 45px;
+}
+
+.profilescontainer {
+    display: flex;
+    gap: 0px;
+
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.grpprofile {
+    font-family: "Inria Serif";
+    font-style: italic;
+    font-weight: medium;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+
+    color: ghostwhite;
+
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 55px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+    .grpprofile p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 1px;
+
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+.grpprofileimg {
+    float: left;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    text-align: center;
+    
+    flex-direction: row; 
+    align-items: flex-start;
+    justify-content: left;
+    padding-right: 35px;
+    padding-top: 25px;
+}
+    
+.grpprofileimg img {
+    width: 700px;
+    height: auto;
+}
+
+.profilescontainer2 {
+    display: flex;
+    gap: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.grpprofile2 {
+    font-family: "Inria Serif";
+    font-style: italic;
+    font-weight: medium;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+
+    color: ghostwhite;
+
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 55px;
+    padding-right: 0px;
+    margin: 0;
+}
+
+    .grpprofile2 p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 1px;
+
+        padding-top: 0px;
+        padding-bottom: 10px;
+        padding-right: 0px;
+    }
+
+.grpprofile3 {
+    font-family: "Inria Serif";
+    font-style: italic;
+    font-weight: medium;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+    
+    color: ghostwhite;
+    
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 55px;
+    padding-right: 35px;
+    margin: 0;
+}
+
+    .grpprofile3 p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 1px;
+
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+
+.indiprofiletitle {
+    font-family: "Inria Serif";
+    font-size: 60px;
+    letter-spacing: 8px;
+    font-weight: 500;
+    
+    color: ghostwhite;
+    text-decoration: none;
+    
+    padding-left: 45px;
+}
+
+.profilescontainer {
+    display: flex;
+    gap: 0px;
+
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+    
+.profiles {
+    float:left;
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    flex-direction: row; 
+    align-items: center;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.profile img {
+    max-width: 200px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.name {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+    color: white;
+    text-decoration: none;
+
+    padding: 5px;
+}
